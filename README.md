@@ -15,24 +15,26 @@ A minimal and modern webpack 5 template for vanilla JavaScript development. Incl
 
 ## 🛠️ Setup
 
-### 1. Clone the repository
-
 ```bash
 git clone https://github.com/LiamSandstrom/webpack-template.git
 cd webpack-template
 npm install
+```
 
 ---
 
 ## 📜 Scripts
 
+```bash
 npm run dev       # Start dev server (manual browser open)
 npm run devo      # Start dev server and open browser automatically
 npm run build     # Build production bundle into dist/
 npm run deploy    # Deploy dist/ to GitHub Pages (gh-pages branch)
-
+```
 ---
 
 ## 🛠️ Build && deployment
+```bash
 npm run build
 npm run deploy
+```
